@@ -1,5 +1,9 @@
 {
   "root": true,
+  "api": {
+    "projectId": "g3wgw8bg",
+    "dataset": "production"
+  },
   "project": {
     "name": "Next.js landing pages",
     "basePath": "/studio"
@@ -15,7 +19,9 @@
   ],
   "env": {
     "development": {
-      "plugins": ["@sanity/vision"]
+      "plugins": [
+        "@sanity/vision"
+      ]
     }
   },
   "parts": [
